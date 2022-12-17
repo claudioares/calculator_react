@@ -1,13 +1,14 @@
+
 import {
-  StyledHome
+  Container
 } from './styled';
 
 function Home() {
 
   return (
-    <StyledHome>
-      Ola, meu projeto!
-    </StyledHome>
+    <Container>
+      
+    </Container>
   )
 }
 
