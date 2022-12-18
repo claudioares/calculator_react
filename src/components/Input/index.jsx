@@ -1,13 +1,13 @@
 import {
-  StyledInput
+    ContentInput
 } from './styled';
 
 
-function Input() {
-
-    return (
-      <StyledInput type='text' />
+const Input = ({number}) =>{
+    
+    return(
+        <ContentInput disabled value={number}/>
     )
-  }
-  
-  export default Input;
+}
+
+export default Input;

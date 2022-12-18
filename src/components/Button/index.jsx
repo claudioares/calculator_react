@@ -1,15 +1,13 @@
 import {
-    StyledButton
+    ContentButton
 } from './styled';
 
-
-function Button() {
-
-    return (
-      <StyledButton>
-        Ola, meu projeto!
-      </StyledButton>
+const Button = ({label, addNumberInput }) =>{
+    return(
+        <ContentButton onClick={()=>addNumberInput(label)}>
+            {label}
+        </ContentButton>
     )
-  }
-  
-  export default Button;
+}
+
+export default Button
